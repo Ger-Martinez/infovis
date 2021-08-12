@@ -1,3 +1,11 @@
+protovis
 visual encodings
+stacked graphs
 stem-and-leaf
 flow maps
+graphical perception
+dorling cartogram
+squarified treemaps
+dendrogram
+k-means clustering
+cliques 
