@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Link de css de bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Hello, world!</title>
+    <!-- Fonts de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- Para usarla agregar esto style="font-family: 'Open Sans', sans-serif; ||  background-color: #e0e0e0;" -->
+  </head>
+  <body style="font-family: 'Open Sans', sans-serif;">
+    <!-- Navbar -->
+    <nav class="navbar custom-color">
+        <div class="container-fluid ">
+            <span class="navbar-brand mb-0 h1" style="color:white">TP Datos Personales</span>
+            <span class="navbar-brand mb-0 h1" style="color:white">Infovis</span>
+            <span class="navbar-brand mb-0 h1" style="color:white">2C2021</span>
+        </div>
+    </nav>
+    <!-- Visualizacion 1 -->
+    <div class="row justify-content-center mt-5">
+        <div class="col-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"><b>Primera visualizacion</b></h5>
+                    <p class="card-text" style="text-align: justify; text-justify: inter-word;">En esta primera visualizacion se pueden observar las palabras mas utilizadas desde el comienzo de la pandemia hasta la actualidad. Es interesante notar como en comparacion con la entrega intermedia de este trabajo practico todas las palabras relacionadas con los examenes parciales en la facultad aparecieron casi el quintuple de veces.</p>
+                </div>
+            </div>
+            <div class="card mt-4">
+                <div class="card-body">
+                    <h5 class="card-title"><b>Como se constuyo la visualizacion</b></h5>
+                    <p class="card-text" style="text-align: justify; text-justify: inter-word;">La misma se se creo con los datos obtenidos a partir de la aplicacion movil Chat Stats la cual se encuentra en el Play Store. Se trabajo utilizando una aplicacion codeada en Java para eliminar palabras repetidas sumando la cantidad de veces que aparece la misma, el link al repositorio de esta aplicacion se encuentra al final de la pagina. </p>
+                    <p class="card-text">La visualizacion no estaba disponible en los graficos por defecto de Tableau por lo que se tuvo que crear creando campos calculados y funciones dentro del software de Tableau, todo se hizo siguiendo el siguiente tutorial:</p>
+                    <!-- Video Radial Barchart -->
+                    <div class="row justify-content-center">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/d6-aptKLvgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <!-- HTML de la visualziacion -->
+            <div class="row justify-content-center">
+                <div class='tableauPlaceholder' id='viz1632417947605' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WordCount_16324149141970&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='WordCount_16324149141970&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WordCount_16324149141970&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es-ES' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1632417947605');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            </div>
+        </div>
+    </div>
+    <!-- Visualizacion 2 -->
+    <div class="row justify-content-center mt-5">
+        <div class="col-6">
+            <!-- HTML de la visualziacion -->
+            <div class="row justify-content-center">
+                <div class='tableauPlaceholder' id='viz1632418465140' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Em&#47;EmojiCount&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='EmojiCount&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Em&#47;EmojiCount&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es-ES' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1632418465140');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"><b>Segunda visualizacion</b></h5>
+                    <p class="card-text" style="text-align: justify; text-justify: inter-word;">En esta visualizacion se pueden observar los emojis mas utilizados desde el comienzo de la pandemia hasta el dia de la fecha.</p>
+                </div>
+            </div>
+            <div class="card mt-4">
+                <div class="card-body">
+                    <h5 class="card-title"><b>Como se constuyo la visualizacion</b></h5>
+                    <p class="card-text" style="text-align: justify; text-justify: inter-word;">La misma se se creo con los datos obtenidos a partir de la aplicacion movil Chat Stats la cual se encuentra en el Play Store. Se trabajo utilizando una aplicacion codeada en Java para eliminar los emojis repetidoss sumando la cantidad de veces que aparece la misma, el link al repositorio de esta aplicacion se encuentra al final de la pagina. </p>
+                    <p class="card-text">La visualizacion no estaba disponible en los graficos por defecto de Tableau por lo que se tuvo que crear creando campos calculados y funciones dentro del software de Tableau, todo se hizo siguiendo el siguiente tutorial:</p>
+                    <!-- Video Radial Barchart -->
+                    <div class="row justify-content-center">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/JO4Wm2SLpKE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Visualizacion 3 -->
+    <div class="row justify-content-center mt-5">
+        <div class="col-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"><b>Tercera visualizacion</b></h5>
+                    <p class="card-text" style="text-align: justify; text-justify: inter-word;">En esta visualizacion se observan todos los links compartidos via WhatsApp de aplicaciones moviles, esto nos da una buena nocion de que aplicaciones son las mas utilizadas hoy en dia y en base a su categoria (Produccion, Entretenimiento, Noticas, etc) su uso.</p>
+                </div>
+            </div>
+            <div class="card mt-4">
+                <div class="card-body">
+                    <h5 class="card-title"><b>Como se constuyo la visualizacion</b></h5>
+                    <p class="card-text" style="text-align: justify; text-justify: inter-word;">La misma se se creo con los datos obtenidos a partir de la aplicacion movil Chat Stats la cual se encuentra en el Play Store. A diferencia de las visualizaciones anteriores esta no fue creada en Tableau, sino que fue creada dentro de la aplicacion web de Flourish. Los datos fueron sacados a mano ya que no era de nuestro interes las aplicaciones con una poca cantidad de links enviados o que eran links irrelevantes, luego fueron categorizados de la misma manera. </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <!-- HTML de la visualziacion -->
+            <div class="row justify-content-center">
+                <div class="flourish-embed flourish-survey" data-src="visualisation/7343668"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+            </div>
+        </div>
+    </div>
+    <!-- Link de js de bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+<style>
+    .custom-color {
+        background: linear-gradient(to right, #a83279, #d38312);
+    }
+</style>
