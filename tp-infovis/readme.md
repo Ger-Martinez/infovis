@@ -1,4 +1,7 @@
 ## Trabajo práctico final InfoVis 2021
+
+Equipo: [German Martinez](https://github.com/Ger-Martinez), [Lucas Calotino](https://github.com/LucasCatolino), [Franco Navarro](https://github.com/navfran98)
+
 Para correr estre proyecto es necesario tener instalado y funcionando postgresql (en docker o local).
 
 Luego, cargar el dump de nuestra base de datos que esta guardado como un archivo .rar llamado dump.rar.
