@@ -1,0 +1,28 @@
+Que endpoints ofrecemos:
+
+    --- GENERALES ---
+    
+    DONE - /cargos -> devuelve lista con pares id, cargo.
+    DONE - /agrupaciones -> devuelve todas las agrupaciones (habria que ver de hacerlo con distinct).
+    DONE - /provincias -> devuelve todas las provincias.
+    DONE - /secciones -> devuelve todas las secciones
+
+    --- VOTOS TOTALES ---
+
+    DONE - /votos -> votos totales.
+    DONE - /votos/positivos -> votos totales positivos.
+    DONE - /votos/blanco -> votos totales en blanco.
+    DONE - /votos/nulos -> votos totales nulos.
+    DONE - /votos/recurridos -> votos totales recurridos.
+    DONE - /votos/comando -> votos totales comando (?).
+    DONE - /votos/impugnados -> votos totales impugnados.
+
+    --- PROVINCIAS ---
+
+    DONE - /provincia/{id_provincia}/cargos -> devuelve los cargos de una provincia.
+    DONE - /provincia/{id_provincia}/votos -> devuelve los votos totales de una provincia.
+    DONE - /provincia/{id_provincia}/agrupaciones -> devuelve las agrupaciones de una provincia.
+    DONE - /provincia/{id_provincia}/secciones -> devuelve las secciones de una provincia.
+    DONE - /provincia/{id_provincia}/cargo/{id_cargo}/agrupaciones/votos -> devuelve los votos de cada agrupacion por provincia por cargo.
+    DONE - /provincia/{id_provincia}/agrupacion/{id_agrupacion}/votos -> devuelve los votos totales de una agrupacion de una provincia.
+    DONE - /provincia/{id_provincia}/votos/invalidos -> devuelve los votos invalidos totales de una provinca.
