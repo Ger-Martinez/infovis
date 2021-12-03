@@ -1,0 +1,10 @@
+Para correr estre proyecto es necesario tener instalado y funcionando postgresql (en docker o local). 
+
+Luego cargar el dump de nuestra base de datos que esta guardado como un archivo .rar llamado dump.rar. 
+
+Para cargarlo hacer: cat dump.sql | docker exec -i your-db-container psql -U your-db-user -d your-db-name
+
+Una vez hecho esto correr nuestra api con el siguiente comando:
+uvicorn app:app --reload
+
+¡Listo!
