@@ -4,7 +4,7 @@ Equipo: [German Martinez](https://github.com/Ger-Martinez), [Lucas Calotino](htt
 
 Para correr estre proyecto es necesario tener instalado y funcionando postgresql (en docker o local).
 
-Luego, cargar el dump de nuestra base de datos que esta guardado como un archivo .rar llamado dump.rar.
+Luego, cargar el dump de nuestra base de datos que esta guardado como un archivo .zip llamado ```dump.zip```.
 
 Para cargarlo en docker hacer:
 ```
